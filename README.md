@@ -1,10 +1,13 @@
 # odin-linkedlist
 Assignment completed as part of the Odin Project
+
 Concepts: linked lists & recursion
 
 __Specs__
+
 Node class
 - contains a value method and a link to the nextNode (initialize both to null)
+
 
 linked list class
 - constructor:
