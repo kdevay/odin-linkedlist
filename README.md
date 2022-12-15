@@ -1,10 +1,10 @@
 # odin-linkedlist
 
-LinkedList class
-Node class 
+
+Node class:
 - contains a value method and a link to the nextNode (initialize both to null)
 
-linked list methods:
+linked list class:
 - append(value) - adds a new node containing value to the end of the list
 - prepend(value) - "                             " to the start of the list
 - size - returns the total number of nodes in the list
@@ -14,5 +14,7 @@ linked list methods:
 - pop - removes the last element from the list
 - contains(value) - returns true if the value (arg) is in the list (else false).
 - find(value) - returns the index of the node containing arg value (null if not found).
-- toString - represents your LinkedList objects as strings, so you can print them out and preview them in the console. 
-   The format should be: ( value ) -> ( value ) -> ( value ) -> null
+- toString - represents your LinkedList objects as strings 
+   format: *value -> value -> value -> null*
+- insertAt(value, index) - inserts a new node of 'value' at given index
+- removeAt(index) - removes node at given index
