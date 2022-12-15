@@ -1,7 +1,5 @@
 # odin-linkedlist
-Assignment completed as part of the Odin Project
-
-Concepts: linked lists & recursion
+Assignment completed as part of the Odin Project, practicing linked lists & recursion.
 
 __Specs__
 
