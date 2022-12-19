@@ -61,31 +61,31 @@ class LinkedList {
     
     append(value) { // Adds new node to end of list
         let newNode = new Node();// create new node
-    newNode.value = value;
-    if (this.size === 0) {
-        this.head = newNode;
-        this.tail = newNode;
-    } else if (this.size === 1) {
-        this.head.next = newNode;
-    } else {
-        let temp = this.tail
-        temp.next = newNode;
-    }
-        this.tail = newNode;
-        this.size++;
+        newNode.value = value;
+        if (this.size === 0) {
+            this.head = newNode;
+            this.tail = newNode;
+        } else if (this.size === 1) {
+            this.head.next = newNode;
+        } else {
+            let temp = this.tail
+            temp.next = newNode;
+        }
+            this.tail = newNode;
+            this.size++;
     };
 
     prepend(value) { // Adds new node to beginning of list
         let newNode = new Node();
         newNode.value = value;
         if (this.size === 0) {
-        this.tail = newNode;
-    } else if (this.size >= 1) {
-        let temp = this.head;
-        newNode.next = temp;
-    }
-        this.head = newNode;
-        this.size++;
+            this.tail = newNode;
+        } else if (this.size >= 1) {
+            let temp = this.head;
+            newNode.next = temp;
+        }
+            this.head = newNode;
+            this.size++;
     };
 
     at(index) { // returns node at the given index
